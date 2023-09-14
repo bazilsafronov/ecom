@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.logo {
+  background-color: #00b7ff;
+}
+.category-text {
+  padding-right: 20px;
+}
+.category-text a {
+  color:  #222222;
+  font-size: 1.1rem;
+}
+
+.category-text a:hover {
+  color:  #cac725;
+}
+
+.banner {
+  background-image: url("../images/ram.jpg");
+  height: 380px;
+}
+
+.banner_main {
+  padding-top: 20px;
+  align-items: center;
+}
+.banner_title {
+  font-weight: 700;
+  color: #fff;
+  font-size: 3rem;
+}
+.banner_desc {
+
+  color: #fff;
+  font-size: 1.5rem;
+}
+.card-one {
+
+  background-image: url("../images/smartcap-1.jpg");
+  
+}
+.card-two{
+
+  background-image: url("../images/trq-2.jpg");
+  
+}
+.card-center{
+
+  background-image: url("../images/spyder-3.jpg");
+  
+}
+
+.card-one, .card-two {
+  width: 300px;
+  height: 250px;
+}
+
+.card-center {
+
+  width: 580px;
+  height: 500px;
+}
+
+.brand {
+  margin: 10px;
+  height: 120px;
+  width: 200px;
+  background-color: #c9c8c8;
+}
+
+.input-header {
+  width: 700px;
+  height: 50px;
+}
+
+.product {
+  width: 400px;
+  border: 1px solid #c9c8c8;
+  padding: 10px;
+}
+
+.header_product {
+  padding: 10px;
+}
