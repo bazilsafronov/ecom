@@ -17,7 +17,23 @@ module.exports = function Header() {
           Search
         </button>
       </div>
-      <div>
+      <div className="account">
+        <div className="descr">
+          <h3>My account</h3>
+          <a
+            href="/auth/login"
+            className="btn btn-success btn-login"
+            type="submit"
+          >
+            Log In
+          </a>
+          <p>
+            New Customer?{" "}
+            <span>
+              <a href="/auth/signup">Sign Up</a>
+            </span>
+          </p>
+        </div>
         <a href="/">
           <img src="images/profile.svg" alt="profile" />
           <span>Account</span>

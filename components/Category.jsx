@@ -5,7 +5,7 @@ function Category() {
     <>
       <ul className="nav justify-content-center">
         <li className="nav-item category-text">
-          <a href="/" className="nav-link">
+          <a href="/catalog" className="nav-link">
             Parts
           </a>
         </li>

@@ -9,7 +9,8 @@ const sessionConfig = require("./sessionConfig");
 
 const indexRouter = require("./routes/index.routes");
 const categoriesRouter = require("./routes/catalog.routes");
-const adminRouter = require("./routes/admin.routes");
+const adminRouter = require("./routes/admin/product.routes");
+const authRouter = require("./routes/auth.routes");
 
 const app = express();
 const PORT = 3000;
@@ -22,6 +23,7 @@ app.use(cookieParser());
 app.use(session(sessionConfig));
 
 app.use("/", indexRouter);
+app.use("/auth", authRouter);
 app.use("/catalog", categoriesRouter);
 app.use("/admin", adminRouter);
 
